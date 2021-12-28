@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="JadeThomas_Final.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JadeThomas_Final"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="DarkGray">
+        <Image Source="Assets/georgia-vagim-ny-lHmsHYHk-unsplash.jpg"></Image>
+        <TextBox x:Name="userTxtbx" HorizontalAlignment="Left" Margin="174,144,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" PlaceholderText="username"/>
+        <PasswordBox x:Name="pass" HorizontalAlignment="Left" Margin="174,214,0,0" VerticalAlignment="Top" PlaceholderText="password"/>
+        <Button x:Name="loginBtn" Content="Login" Margin="174,325,0,0" VerticalAlignment="Top" Click="loginBtn_Click"/>
+        <TextBlock x:Name="titleTxt" HorizontalAlignment="Left" Margin="501,40,0,0" Text="Jade Thomas - Final Exam" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged"/>
+        <TextBlock x:Name="tipTxt" HorizontalAlignment="Left" Margin="174,377,0,0" Text="press login to login as guest" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged"/>
+        <TextBox x:Name="emailTxtbx" HorizontalAlignment="Left" Margin="174,275,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" PlaceholderText="email"/>
+    </Grid>
+</Page>
